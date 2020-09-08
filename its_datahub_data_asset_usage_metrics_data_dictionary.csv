@@ -1,0 +1,37 @@
+﻿Element Name,Element Description,Source Name,Source Table Name,Data Type,Length,List of Values,Security Classification,Archived
+Repository,GitHub repository name,N/A,GitHub Metrics,text,,N/A,Public,No
+Timestamp,The date for which the GitHub metric is collected,N/A,GitHub Metrics,timestamp without time zone,,N/A,Public,No
+Count,Number of views,N/A,GitHub Metrics,integer,,N/A,Public,No
+Uniques,Number of views from unique users,N/A,GitHub Metrics,integer,,N/A,Public,No
+Day,The date for which the sandbox metric is collected,N/A,Sandbox Metrics,timestamp without time zone,,N/A,Public,No
+Pageviews,Number of pageviews for the Connected Vehicle Pilot (CVP) sandbox web interface page at http://usdot-its-cvpilot-public-data.s3.amazonaws.com/index.html,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Wyoming BSM Downloads,Number of downloads of Wyoming BSM files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Wyoming TIM Downloads,Number of downloads of Wyoming TIM files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Tampa BSM Downloads,Number of downloads of Tampa BSM files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Tampa SPaT Downloads,Number of downloads of Tampa SPaT files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Tampa TIM Downloads,Number of downloads of Tampa TIM files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+NYC BSM Downloads,Number of downloads of NYC BSM files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+NYC SPaT Downloads,Number of downloads of NYC SPaT files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+NYC MAP Downloads,Number of downloads of NYC MAP files in the CVP sandbox for the day,N/A,Sandbox Metrics,integer,,N/A,Public,No
+Dataset Name,Name of JPO dataset on data.transportation.gov,N/A,dtgDatasetMetric,text,,N/A,Public,No
+Recent Views,Number of pageviews in the last 30 days,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+Recent Downloads,Number of downloads in the last 30 days,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+API Rows Accessed Recently,Number of rows accessed through the API in the last 30 days,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+API Rows Downloaded Recently,Number of rows downloaded through the API in the last 30 days,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+Total Views,Total number of views,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+Total Downloads,Total number of downloads,N/A,dtgDatasetMetric,integer,,N/A,Public,No
+% of DTG Recent Views,Percentage of recent views for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+% of DTG Recent Downloads,Percentage of recent downloads for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+% of Recently Accessed API Rows ,Percentage of the count of recently accessed API rows for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+% of Recently Downloaded API Rows,Percentage of the count of recently downloaded API rows for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+% of DTG Total Views,Percentage of total views for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+% of DTG Total Downloads,Percentage of total downloads for the dataset compared to that of all datasets,N/A,dtgDatasetMetric,float,,N/A,Public,No
+Dataset Name,Name of JPO dataset on National Transportation Library (NTL),N/A,NTL Data,text,,N/A,Public,No
+Recent Views,Number of pageviews in the last 30 days,N/A,NTL Data,integer,,N/A,Public,No
+Recent Downloads,Number of downloads in the last 30 days,N/A,NTL Data,integer,,N/A,Public,No
+Total Views,Total number of views,N/A,NTL Data,integer,,N/A,Public,No
+Total Downloads,Total number of downloads,N/A,NTL Data,integer,,N/A,Public,No
+% of NTL Recent Views,Percentage of recent views for the dataset compared to that of all datasets,N/A,NTL Data,float,,N/A,Public,No
+% of NTL Recent Downloads,Percentage of recent downloads for the dataset compared to that of all datasets,N/A,NTL Data,float,,N/A,Public,No
+% of NTL Total Views,Percentage of total views for the dataset compared to that of all datasets,N/A,NTL Data,float,,N/A,Public,No
+% of NTL Total Downloads,Percentage of total downloads for the dataset compared to that of all datasets,N/A,NTL Data,float,,N/A,Public,No
