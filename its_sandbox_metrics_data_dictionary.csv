@@ -1,0 +1,14 @@
+﻿Element Name,Element Description,Source Name,Source Table Name,Data Type,Length,List of Values,Security Classification,Archived
+requestTimestamp,Timestamp when an external GET request was made to the CV Pilot sandbox.,N/A,sandbox-metrics,timestamp without time zone,,N/A,Public,No
+resource.datasource,Data source requested.,N/A,sandbox-metrics,text,,"thea, wydot, nycdot",Public,No
+resource.datatype,Data type requested.,N/A,sandbox-metrics,text,,"SPAT, BSM, TIM",Public,No
+resource.filename,Name of file requested.,N/A,sandbox-metrics,text,,N/A,Public,No
+sourceIpAddress,Source IP making the request.,N/A,sandbox-metrics,text,,N/A,Public,No
+type,Type of request (e.g. download),N/A,sandbox-metrics,text,,N/A,Public,No
+name,"Name of GitHub repository, in the format of <<GitHub organization>>/<<GitHub repository name>>.",N/A,internal_metrics,text,,N/A,Public,No
+views.<<DATE>>.count,"Number of views on <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,integer,,N/A,Public,No
+views.<<DATE>>.timestamp,"Timestamp when view metric was extracted for <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,timestamp without time zone,,N/A,Public,No
+views.<<DATE>>.uniques,"Number of unique views on <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,integer,,N/A,Public,No
+clones.<<DATE>>.count,"Number of clones on <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,integer,,N/A,Public,No
+clones.<<DATE>>.timestamp,"Timestamp when clone metric was extracted for <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,timestamp without time zone,,N/A,Public,No
+clones.<<DATE>>.uniques,"Number of unique clones on <<DATE>>, where <<DATE>> is formatted YYYY-MM-DD.",N/A,internal_metrics,integer,,N/A,Public,No
