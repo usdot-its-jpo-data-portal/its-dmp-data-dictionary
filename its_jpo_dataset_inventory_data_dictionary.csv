@@ -38,3 +38,10 @@ projects.isPopular,"Internal field for tracking if a ""project"" entry is popula
 projects.lastModified,"Internal field for tracking the timestamp at which a ""project"" entry is last modified.",N/A,configurations,datetime,,,Private,No
 projects.name,"Internal field for configuring a ""project"" entry's name.",N/A,configurations,text,,,Private,No
 projects.orderPopular,"Internal field for configuring a ""project"" entry's sequential popularity.",N/A,configurations,integer,,,Private,No
+timestamp,Start of the metrics timeframe.,N/A,metrics,datetime,,,Public,No
+granularity,"Time granularity of the count (e.g. daily, monthly).",N/A,metrics,text,,"daily, monthly",Private,No
+dhId,Internal unique identifier field for the data asset - matches the dhId field in the dataassets index.,N/A,metrics,text,,,Private,No
+dhSourceName,Internal field for tracking the source platform of the data asset - matches the dhSourceName field in the dataassets index.,N/A,metrics,text,,,Public,No
+userSegment,Type of user that has accessed the data asset.,N/A,metrics,text,,"anonymous, site_member",Public,No
+accessType,Type of access on the data asset.,N/A,metrics,text,,"primer page view, page view, API read, download, etc",Public,No
+count,Number of times a user segment has accessed a data asset in a particular way within a timeframe.,N/A,metrics,integer,,,Public,No
